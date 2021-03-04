@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFrameworks>net47;netcoreapp3.1</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Arci.UserDialogs</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="*.xaml.cs" SubType="Code" DependentUpon="%(Filename)" />
+    <EmbeddedResource Remove="*.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs" Version="7.1.0.475" />
+    <PackageReference Include="Xamarin.Forms.Platform.WPF" Version="5.0.0.2012" />
+  </ItemGroup>
+
+</Project>

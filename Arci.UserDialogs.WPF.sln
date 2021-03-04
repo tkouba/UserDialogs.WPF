@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arci.UserDialogs.Forms.WPF", "Arci.UserDialogs.Forms.WPF\Arci.UserDialogs.Forms.WPF.csproj", "{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {423B8CC6-FB6E-464F-90FC-22DFF07F368C}
+	EndGlobalSection
+EndGlobal
