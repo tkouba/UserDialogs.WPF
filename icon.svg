@@ -14,7 +14,10 @@
    version="1.1"
    id="svg4"
    sodipodi:docname="icon.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="D:\WORK\ARCI\UserDialogs.WPF\icon.png"
+   inkscape:export-xdpi="4.73"
+   inkscape:export-ydpi="4.73">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -64,31 +67,31 @@
      d="m 78.986188,19.20385 c -6.914,0.015 -13.682,3.94 -17.162,9.927 l -54.134,94.036 c -3.427,6.003 -3.427,13.85 0,19.853 l 54.134,94.037 c 3.48,5.987 10.248,9.913 17.162,9.927 H 187.25419 c 6.914,-0.015 13.682,-3.94 17.162,-9.927 l 54.134,-94.037 c 3.427,-6.003 3.426,-13.85 0,-19.853 l -54.134,-94.035999 c -3.48,-5.988 -10.248,-9.913 -17.162,-9.927 z"
      id="path2"
      inkscape:connector-curvature="0"
-     style="fill:#64b9f3;fill-opacity:1;stroke:#7f7f7f;stroke-width:3.58400011;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:#64b9f3;fill-opacity:1;stroke:#7f7f7f;stroke-width:8.19200031;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      sodipodi:nodetypes="ccccccccccccc" />
   <rect
-     style="opacity:1;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:3.58400011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:8.19200031;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect817"
-     width="98.815514"
-     height="39.370914"
-     x="83.71225"
-     y="62.947891" />
+     width="124.93513"
+     height="46.55056"
+     x="70.652451"
+     y="55.768246" />
   <flowRoot
      xml:space="preserve"
      id="flowRoot819"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:266.66665649px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#7f7f7f;fill-opacity:1;stroke:#7f7f7f;stroke-opacity:1"
-     transform="matrix(0.1024,0,0,0.1024,5.2935386,14.905009)"><flowRegion
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:333.33334351px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#7f7f7f;fill-opacity:1;stroke:#7f7f7f;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     transform="matrix(0.1024,0,0,0.1024,5.3368806,7.5686715)"><flowRegion
        id="flowRegion821"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:266.66665649px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#7f7f7f;fill-opacity:1;stroke:#7f7f7f;stroke-opacity:1"><rect
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:333.33334351px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#7f7f7f;fill-opacity:1;stroke:#7f7f7f;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
          id="rect823"
          width="964.99524"
          height="384.4816"
          x="767.50061"
          y="515.08118"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:266.66665649px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#7f7f7f;fill-opacity:1;stroke:#7f7f7f;stroke-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:333.33334351px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#7f7f7f;fill-opacity:1;stroke:#7f7f7f;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
        id="flowPara825">WPF</flowPara></flowRoot>  <path
-     style="opacity:1;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:3.58400011;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 83.712245,107.36095 h 98.815515 v 39.37091 H 121.85618 L 83.968181,181.9288 101.37618,146.73186 H 83.712245 Z"
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#7f7f7f;stroke-width:8.19200031;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 70.652443,117.20825 H 195.58758 v 46.39056 H 118.87886 L 70.97603,205.0712 92.985435,163.59881 H 70.652443 Z"
      id="rect827"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccccccc" />
