@@ -28,6 +28,11 @@
     <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <AppOutputBase>$(MSBuildProjectDirectory)\</AppOutputBase>
+    <PathMap>$(AppOutputBase)=X:\</PathMap>    
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\userdialogs\src\Acr.UserDialogs\Acr.UserDialogs.csproj" />
   </ItemGroup>
