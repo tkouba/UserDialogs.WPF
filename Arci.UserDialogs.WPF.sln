@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arci.UserDialogs.Forms.WPF", "Arci.UserDialogs.Forms.WPF\Arci.UserDialogs.Forms.WPF.csproj", "{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arci.UserDialogs.Forms.WPF", "Arci.UserDialogs.Forms.WPF\Arci.UserDialogs.Forms.WPF.csproj", "{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Acr.UserDialogs", "Acr.UserDialogs", "{CC516303-A2CC-4776-8244-D1164BB26F61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acr.UserDialogs", "userdialogs\src\Acr.UserDialogs\Acr.UserDialogs.csproj", "{C8D6307D-C7B6-4BB6-AEF1-5AB43AB55FC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples", "userdialogs\src\Samples\Samples\Samples.csproj", "{2CE5DEDB-64F6-4549-8530-848C756FD22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.FormsWPF", "Samples\Samples.FormsWPF\Samples.FormsWPF.csproj", "{8453C520-89CF-4508-87A7-F89CD4828E55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,25 @@ Global
 		{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68EAA386-8DB5-4F72-A4FD-6A3AD5DB79FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D6307D-C7B6-4BB6-AEF1-5AB43AB55FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D6307D-C7B6-4BB6-AEF1-5AB43AB55FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D6307D-C7B6-4BB6-AEF1-5AB43AB55FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D6307D-C7B6-4BB6-AEF1-5AB43AB55FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE5DEDB-64F6-4549-8530-848C756FD22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE5DEDB-64F6-4549-8530-848C756FD22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE5DEDB-64F6-4549-8530-848C756FD22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE5DEDB-64F6-4549-8530-848C756FD22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8453C520-89CF-4508-87A7-F89CD4828E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8453C520-89CF-4508-87A7-F89CD4828E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8453C520-89CF-4508-87A7-F89CD4828E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8453C520-89CF-4508-87A7-F89CD4828E55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8D6307D-C7B6-4BB6-AEF1-5AB43AB55FC5} = {CC516303-A2CC-4776-8244-D1164BB26F61}
+		{2CE5DEDB-64F6-4549-8530-848C756FD22A} = {CC516303-A2CC-4776-8244-D1164BB26F61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {423B8CC6-FB6E-464F-90FC-22DFF07F368C}

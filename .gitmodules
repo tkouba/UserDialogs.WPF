@@ -1,0 +1,3 @@
+[submodule "userdialogs"]
+	path = userdialogs
+	url = https://github.com/aritchie/userdialogs.git
