@@ -2,18 +2,54 @@
 
   <PropertyGroup>
     <TargetFrameworks>net47;netcoreapp3.1</TargetFrameworks>
+    <PackageProjectUrl>https://github.com/tkouba/UserDialogs.WPF</PackageProjectUrl>
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <Authors>Tomas "Arci" Kouba</Authors>
+    <Description>A WPF platform support for Acr.UserDialogs library.</Description>
+    <PackageTags>wpf windows xamarin dialogs plugin</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>$(NoWarn);1591;1701;1591;1702;1705;VSX1000;NU1603;NU1701</NoWarn>
+    <DisableExtraReferences>true</DisableExtraReferences>
+    <GenerateLibraryLayout>true</GenerateLibraryLayout>
+    <EnableSourceLink Condition=" '$(Configuration)' == 'Release' AND '$(OS)' == 'Windows_NT' AND '$(MSBuildRuntimeType)' == 'Core' ">true</EnableSourceLink>
+    <EnableSourceControlManagerQueries>$(EnableSourceLink)</EnableSourceControlManagerQueries>
+    <RepositoryUrl>https://github.com/tkouba/UserDialogs.WPF</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>True</IncludeSymbols>
+    <IncludeSource>True</IncludeSource>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>    
     <UseWPF>true</UseWPF>
     <RootNamespace>Arci.UserDialogs</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\userdialogs\src\Acr.UserDialogs\Acr.UserDialogs.csproj" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="*.xaml.cs" SubType="Code" DependentUpon="%(Filename)" />
     <EmbeddedResource Remove="*.xaml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Acr.UserDialogs" Version="7.1.0.475" />
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('net4')) ">
+    <PackageReference Include="Xamarin.Forms.Platform.WPF" Version="4.5.0.356" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netcore')) ">
     <PackageReference Include="Xamarin.Forms.Platform.WPF" Version="5.0.0.2012" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
